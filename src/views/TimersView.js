@@ -10,6 +10,7 @@ const Timers = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #EDD0C2;
 `;
 
 const Timer = styled.div`
@@ -17,9 +18,16 @@ const Timer = styled.div`
   padding: 20px;
   margin: 10px;
   font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: pink;
 `;
 
-const TimerTitle = styled.div``;
+const TimerTitle = styled.div`
+color: black;
+display: flex;
+justify-content: center;
+padding: 10px;
+`;
 
 const TimersView = () => {
   const timers = [
